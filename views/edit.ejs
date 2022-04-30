@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="https://www.unpkg.com/bulma@0.9.3/css/bulma.css">
+</head>
+<body>
+    <div id="app" class="container is-max-desktop mt-3">
+        <h1 class="title">Edit User</h1>
+        <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+                <input type="text" placeholder="User Name" class="input" name="name" id="name" value="<%= user.name %>">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+                <input type="text" placeholder="User Email" class="input" name="email" id="email" value="<%= user.email %>">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Password</label>
+            <div class="control">
+                <input type="text" placeholder="User Password" class="input" name="password" id="password">
+            </div>
+        </div>
+        <div class="control">
+            <button class="button is-warning" id="save" onclick=<%= "edit("+user.id+")" %>>Edit</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.25.0/axios.min.js"></script>
+    <script>
+        const edit = id => {
+            axios({
+                method: "put",
+                url: "/user/edit/"+id,
+                data: {
+                    name: document.getElementById("name").value,
+                    email: document.getElementById("email").value,
+                    password: document.getElementById("password").value
+                }
+            }).then(results => {
+                window.location = "/user/login"
+            }).catch(err => alert(err))
+        }
+    </script>
+</body>
+</html>

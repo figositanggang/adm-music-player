@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/root.css">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.css' integrity='sha512-c9N/Xq0n4rQdyCXF4RgrRYAAOSnNJDp8NWILsSUx+33zWyaMbXXvqajgO0UXybRdTGVpxq3FBrcGwabkWsT8OA==' crossorigin='anonymous'/>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css' integrity='sha512-vZWT27aGmde93huNyIV/K7YsydxaafHLynlJa/4aPy28/R1a/IxewUH4MWo7As5I33hpQ7JS24kwqy/ciIFgvg==' crossorigin='anonymous'/>
+
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="navbar-brand">Home</a>
+    </nav>
+    <div class="container w-50 text-center position-absolute top-50 start-50 translate-middle d-flex justify-content-between align-items-center flex-column" id="form">
+        <% if (message) { %>
+            <span class="text-danger"><%= message %> </span>
+        <% } %>
+        <h1 class="fw-bold pt-3">Login</h1>
+        <form action="/user/login" method="post" class="d-flex flex-column justify-content-around align-items-center text-dark">
+            <div class="d-flex flex-column align-items-center">
+                <input type="email" name="email" id="email" placeholder="email..." autocomplete="email">
+                <input type="password" name="password" id="password" placeholder="password..." autocomplete="off">
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

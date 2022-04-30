@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    /* background: url("https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center;
+    background-size: cover !important; */
+    background: linear-gradient(90deg, #0c1829, #2b3f63, #242d3e);
+    min-height: 100vh;
+}
+
+a:hover{
+    color: rgb(56, 167, 241) !important;
+}
+
+button{
+    border: none;
+}
+
+
+nav{
+    padding: 1em;
+    padding-left: 5em !important;
+}
+nav a{
+    color: rgb(32, 124, 178);
+    font-size: 1.5em !important;
+}
+
+div#form{
+    background: rgba(42, 62, 78, 0.397);
+    height: 75vh;
+    border-radius: .25em;
+    -webkit-border-radius: .25em;
+    -moz-border-radius: .25em;
+    -ms-border-radius: .25em;
+    -o-border-radius: .25em;
+    box-shadow: 0 3px 55px rgba(0, 0, 0, 0.363);
+}
+
+form{
+    height: 80%;
+}
+
+form input{
+    width: 20em;
+    margin-bottom: 1em;
+    padding: .5em;
+    background: rgba(31, 47, 65, 0.514);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    border-top: 2px solid rgba(0, 0, 0, 0);
+    color: rgb(124, 200, 255);
+    transition: all .25s;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    border-radius: .25em;
+    -webkit-border-radius: .25em;
+    -moz-border-radius: .25em;
+    -ms-border-radius: .25em;
+    -o-border-radius: .25em;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.075);
+}
+@media screen and (max-width: 750px) {
+    div#form{
+        width: 90% !important;
+    }
+    form{
+        width: 100%;
+    }
+    form input{
+        width: 100%;
+    }
+}
+form input:focus{
+    border-bottom: 2px solid rgb(56, 167, 241);
+    border-top: 2px solid rgb(56, 167, 241);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.411);
+    background: rgba(0, 0, 0, 0);
+}
+form input::placeholder{
+    color: rgba(67, 112, 146, 0.733);
+}
+form button{
+    background: rgba(11, 35, 51, 0.548);
+    color: rgb(56, 167, 241);
+    padding: .5em 1em;
+    width: 5em;
+    border-radius: .25em;
+    -webkit-border-radius: .25em;
+    -moz-border-radius: .25em;
+    -ms-border-radius: .25em;
+    -o-border-radius: .25em;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.199);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    border-top: 2px solid rgba(0, 0, 0, 0);
+    transition: all .25s;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+}
+form button:hover{
+    background: rgba(90, 175, 255, 0);
+    box-shadow: 0 5px 20px rgba(56, 167, 241, 0.253);
+    border-bottom: 2px solid rgb(56, 167, 241);
+    border-top: 2px solid rgb(56, 167, 241);
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <%- (user?user.name+" | "+user.role.toUpperCase(): 'Home') %> </title>
+
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/root.css">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.css' integrity='sha512-c9N/Xq0n4rQdyCXF4RgrRYAAOSnNJDp8NWILsSUx+33zWyaMbXXvqajgO0UXybRdTGVpxq3FBrcGwabkWsT8OA==' crossorigin='anonymous'/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="position-relative">
+    <div id="click-aw" class="position-absolute"></div>
+    <audio src="" autoplay="false"></audio>
+    <div id="hover-box" class="position-absolute"></div>
+    <div id="to-top"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div>
+
+    <section id="home">
+        <!-- Playing -->
+        <div id="playing" class="d-flex justify-content-between align-items-center fixed-top">
+            <div class="kiri d-flex justify-content-between align-items-center h-100" id="kiri">
+                <div id="album-cover-playing" class="deactive"></div>
+                <div id="title-artist">
+                    <p id="title-playing"></p>
+                    <p id="artist-playing"></p>
+                </div>
+            </div>
+            <div class="kanan d-flex align-items-center justify-content-center" id="play-pause" style="cursor: pointer;">
+                <i class="fa fa-pause-circle" aria-hidden="true"></i>
+            </div>
+        </div>
+        <!-- End - Playing -->
+
+        <!-- Header -->
+        <header class="fixed-top w-100 position-relative d-flex justify-content-end align-items-center p-3">
+            <div id="profile" data-set="aw" class="button align-self-end" style="background: none; border: none; cursor: pointer;" data-hover='<%- (user? user.name : 'Guest') %>'> 
+                <img src="https://www.pngkey.com/png/full/115-1150420_avatar-png-pic-male-avatar-icon-png.png" alt="" style=<%- (user)?"filter: drop-shadow(0px 0px 3px gold);":"" %> >
+            </div>
+        </header>
+        <!-- End - Header -->
+
+        <!-- Baru saja didengar -->
+        <div id="baru-didengar" data-parent="true" class="mt-4">
+            <h3>Baru saja didengar</h3>
+            <div class="song d-flex align-items-center pb-3 container" id="parent"></div>
+        </div>
+        <!-- End - Baru saja didengar -->
+
+        <!-- List lagu -->
+        <div id="list-lagu-home" class="d-flex flex-column mx-auto">
+            <h3>Daftar Lagu</h3>
+            <div id="list-lagu-home-container" class="d-flex flex-column justify-content-between align-items-center py-2 px-2 w-100"></div>
+        </div>
+        <!-- End - List lagu -->
+    </section>
+    
+    <section id="player" class="position-fixed top-0 start-0 d-flex flex-column align-items-center justify-content-between">
+        <!-- atas -->
+        <div class="w-100 p-3" id="atas">
+            <span id="close-player"><i class="fa fa-angle-up text-white" aria-hidden="true"></i></span>
+        </div>
+        <!-- tengah -->
+        <div id="tengah">
+            <div id="album-cover-playing"></div>
+            <div id="title-artist">
+                <p id="title-playing">Lithium</p>
+                <p id="artist-playing">Nirvana</p>
+            </div>
+        </div>
+        <!-- bawah -->
+        <div id="bawah" class="d-flex align-items-center flex-column position-relative w-100">
+            <!-- durasi -->
+            <div class="durasi d-flex justify-content-between text-primary w-75 fs-5">
+                <div class="currentDuration"></div>
+                <div class="duration"></div>
+            </div>
+            <!-- progress durasi -->
+            <div class="w-75">
+                <input type="range" id="progress-audio" class="w-100">
+            </div>
+            <!-- next, play, pause -->
+            <div class="w-50 d-flex justify-content-between mt-3 fs-1">
+                <button class="button" id="previous-song"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+                <button class="button text-center rounded-circle" id="play-pause"><i class="fas fa-play"></i></button>
+                <button class="button" id="next-song"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+            </div>
+            <!-- repeat, shuffle -->
+            <div class="w-50 d-flex justify-content-around fs-3">
+                <button class="" id="repeat-audio" data-hover="Repeat Music"><i class="fas fa-redo"></i></button>
+                <% if (user && user.role === "vip") { %>
+                    <button class="" id="shuffle-audio" data-hover="Shuffle Music"><i class="fa fa-random" aria-hidden="true"></i></button>
+                <% } %>
+            </div>
+            <!-- volume, mute -->
+            <div class="position-absolute start-0 top-50 translate-middle-y d-flex flex-column h-100 justify-content-end">
+                <input type="range" value="0.5" step=".01" max="1" id="input-volume" class="mb-4">
+                <button data-set="mute-audio" id="mute-audio" class="pt-2 fs-5" data-hover="Mute"><i class="fa fa-volume-up" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="user" class="position-fixed top-0 start-100 d-flex flex-column align-items-center justify-content-between">
+        <div id="atas" class="w-100 position-relative">
+            <img src="https://www.pngkey.com/png/full/115-1150420_avatar-png-pic-male-avatar-icon-png.png" alt="" id="profile-picture" class="position-absolute top-50 start-50 translate-middle rounded-circle">
+            <button style="cursor: pointer; right:0; top: 0;" id="tutup-user" class="position-absolute text-light fs-3 p-2 px-3"><i class="fa fa-close" aria-hidden="true"></i></button>
+        </div>
+        <div id="bawah" class="d-flex justify-content-between flex-column">
+            <% if (user) { %>
+                <div id="bawah-atas" class="ps-4 pt-3">
+                    <p>Name: <%= user.name %> </p>
+                    <p>Email: <%= user.email %> </p>
+                    <p>Role: <%= user.role.toUpperCase() %> </p>
+                </div>
+                <div id="bawah-bawah" class="align-self-center pb-4">
+                    <a href="/user/edit/<%= user.id %> "><button class="btn btn-warning">Edit Data</button></a>
+                    <a href="/user/logout"><button class="btn btn-danger">Log Out</button></a>
+                </div>
+            <% } else {%>
+                <div id="bawah-atas" class="align-self-center pt-5">
+                    <a href="/user/login">
+                        <h1>Login</h1>
+                    </a>
+                </div>
+            <% } %> 
+        </div>
+    </section>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>

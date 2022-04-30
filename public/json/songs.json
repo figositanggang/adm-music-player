@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "artist": "Albert Cummings",
+        "title": "Lonely Bed",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642705955/Blues/albert%20cummings%20-%20lonely%20bed.jpg",
+        "genre": "Blues",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/blues/Albert%20Cummings%20-%20Lonely%20Bed.mp3?raw=true"
+    },
+    {
+        "id": 2,
+        "artist": "Chris Stapleton",
+        "title": "Tennesse Whiskeys",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642703856/Blues/Tennessee_Whiskey_kxrkec.webp",
+        "genre": "Blues",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/blues/Chris%20Stapleton%20-%20Tennessee%20Whiskey%20(Official%20Audio).mp3?raw=true"
+    },
+    {
+        "id": 3,
+        "artist": "Daniel Castro",
+        "title": "I'll play the blues for you",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642704153/Blues/I%27ll%20play%20the%20blues%20for%20you.jpg",
+        "genre": "Blues",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/blues/Daniel%20Castro%20-%20I'll%20Play%20The%20Blues%20For%20You.mp3?raw=true"
+    },
+    {
+        "id": 4,
+        "artist": "Gary B.B. Coleman",
+        "title": "The sky is crying",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642703897/Blues/the%20sky%20is%20crying.jpg",
+        "genre": "Blues",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/blues/Gary%20B.B.%20Coleman%20-%20The%20Sky%20is%20Crying.mp3?raw=true"
+    },
+    {
+        "id": 5,
+        "artist": "Ray Charles",
+        "title": "(Night time is) The Right Time",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642704056/Blues/the%20right%20time.jpg",
+        "genre": "Blues",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/blues/Ray%20Charles%20-%20(Night%20time%20Is)%20The%20Right%20Time.mp3?raw=true"
+    },
+    {
+        "id": 6,
+        "artist": "Bill & Brod",
+        "title": "Singkong dan keju",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642705046/Dangdut/singkong%20dan%20keju.jpg",
+        "genre": "Dangdut",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/dangdut/Bill%20%26%20Brod%20-%20Singkong%20Dan%20Keju%20%5BOfficial%20Music%20Video%5D.mp3?raw=true"
+    },
+    {
+        "id": 7,
+        "artist": "Elvy Sukaesih",
+        "title": "Bulan di ranting cemara",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642704393/Dangdut/bulan%20diranting%20cemara.jpg",
+        "genre": "Dangdut",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/dangdut/Elvy%20Sukaesih%20-%20Bulan%20Di%20Ranting%20Cemara.mp3?raw=true"
+    },
+    {
+        "id": 8,
+        "artist": "Fahmi Shahab",
+        "title": "Kopi Dangdut",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642704834/Dangdut/kopi%20dangdut.jpg",
+        "genre": "Dangdut",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/dangdut/Fahmi%20Shahab%20-%20Kopi%20Dangdut%20%5BOFFICIAL%5D.mp3?raw=true"
+    },
+    {
+        "id": 9,
+        "artist": "Farid Hardja ft Lucky Resha",
+        "title": "Ini Rindu",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642704938/Dangdut/ini%20rindu.jpg",
+        "genre": "Dangdut",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/dangdut/Ini%20Rindu.mp3?raw=true"
+    },
+    {
+        "id": 10,
+        "artist": "Rhoma Irama",
+        "title": "Melody Cinta",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642704716/Dangdut/melody%20cinta.jpg",
+        "genre": "Dangdut",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/dangdut/Melody%20Cinta%20-%20Rhoma%20Irama.mp3?raw=true"
+    },
+    {
+        "id": 11,
+        "artist": "Alan Walker",
+        "title": "Faded",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642707928/EDM/Alan_Walker_-_Faded_ol1n3y.png",
+        "genre": "EDM",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/edm/Alan%20Walker%20-%20Faded%20(Lyrics).mp3?raw=true"
+    },
+    {
+        "id": 12,
+        "artist": "Avicii",
+        "title": "Wake Me Up",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642708024/EDM/Avicii_Wake_Me_Up_Official_Single_Cover_bobxy7.png",
+        "genre": "EDM",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/edm/Avicii%20-%20Wake%20Me%20Up%20(Official%20Video).mp3?raw=true"
+    },
+    {
+        "id": 13,
+        "artist": "Axwell Ingrosso",
+        "title": "More Than You Know",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642708194/EDM/axwell%20ingrosso%20-%20more%20than%20you%20know.jpg",
+        "genre": "EDM",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/edm/Axwell%20%CE%9B%20Ingrosso%20-%20More%20Than%20You%20Know%20(Official%20Video).mp3?raw=true"
+    },
+    {
+        "id": 14,
+        "artist": "Mazor Lazer",
+        "title": "Light it up",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642708271/EDM/mazor%20lazer%20-%20light%20it%20up.jpg",
+        "genre": "EDM",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/edm/Major%20Lazer%20%E2%80%93%20Light%20it%20Up%20Remix%20(feat.%20Nyla%20%26%20Fuse%20ODG)%20(Music%20Video)%20by%20Method%20Studios.mp3?raw=true"
+    },
+    {
+        "id": 15,
+        "artist": "Marshmello ft Bastille",
+        "title": "Happier",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642708137/EDM/Marshmello_and_Bastille_Happier_hmo5vg.png",
+        "genre": "EDM",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/edm/Marshmello%20ft.%20Bastille%20-%20Happier%20(Official%20Music%20Video).mp3?raw=true"
+    },
+    {
+        "id": 16,
+        "artist": "Desiigner",
+        "title": "Panda",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642705269/HipHop/DesiignerPanda_hankkb.jpg",
+        "genre": "Hip-Hop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/hip%20hop/DJ%20Snake%20ft.%20Bipolar%20Sunshine%20-%20Middle%20(Official%20Audio).mp3?raw=true"
+    },
+    {
+        "id": 17,
+        "artist": "DJ Snake ft Bipolar Sunshine",
+        "title": "Middle",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642705345/HipHop/dj%20snake%20-%20middle.jpg",
+        "genre": "Hip-Hop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/hip%20hop/Desiigner-%20Panda%20(OFFICIAL%20SONG)%20Prod.%20By-%20Menace.mp3?raw=true"
+    },
+    {
+        "id": 18,
+        "artist": "Eminem",
+        "title": "Not Afraid",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642705425/HipHop/220px-Eminem_-_Not_Afraid_olcosk.jpg",
+        "genre": "Hip-Hop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/hip%20hop/Eminem%20-%20Not%20Afraid%20(Official%20Video).mp3?raw=true"
+    },
+    {
+        "id": 19,
+        "artist": "Lil Nas X",
+        "title": "Old Town Road",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642705687/HipHop/artworks-000571985876-ne4o91-t500x500_l6l5x5.jpg",
+        "genre": "Hip-Hop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/hip%20hop/Lil%20Nas%20X%20-%20Old%20Town%20Road%20(Official%20Video)%20ft.%20Billy%20Ray%20Cyrus.mp3?raw=true"
+    },
+    {
+        "id": 20,
+        "artist": "Rich Brian",
+        "title": "Dat Tick",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642705862/HipHop/220px-Revised_Dat__24tick_cover_due_to_Brian_changing_his_name_ddkctr.jpg",
+        "genre": "Hip-Hop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/hip%20hop/Rich%20Brian%20-%20Dat%20tick%20(Official%20Video).mp3?raw=true"
+    },
+    {
+        "id": 21,
+        "artist": "ZAYN ft Sia",
+        "title": "Dusk Till Dawn",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642706774/Pop/Dusk_Till_Dawn_Zayn_Malik_lklwxm.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/Dusk%20Till%20Dawn%20-%20ZAYN%20ft.%20Sia%20(Lyrics).mp3?raw=true"
+    },
+    {
+        "id": 22,
+        "artist": "Judika",
+        "title": "Putus atau Terus",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642706619/Pop/4226901657_eaaod3.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/Judika%20-%20Putus%20Atau%20Terus%20(Lirik).mp3?raw=true"
+    },
+    {
+        "id": 23,
+        "artist": "Mark Ronson ft Bruno Mars",
+        "title": "Uptown Funk",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642706530/Pop/Mark_Ronson_-_Uptown_Funk__28feat._Bruno_Mars_29__28Official_Single_Cover_29_oysld8.png",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/Mark%20Ronson%20-%20Uptown%20Funk%20(Official%20Video)%20ft.%20Bruno%20Mars.mp3?raw=true"
+    },
+    {
+        "id": 24,
+        "artist": "Peterpan",
+        "title": "Bintang di Surga",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642706864/Pop/220px-BintangDiSurga_zcickh.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/Peterpan%20-%20Bintang%20Di%20Surga%20(Official%20Audio).mp3?raw=true"
+    },
+    {
+        "id": 25,
+        "artist": "Radiohead",
+        "title": "Karma Police",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642706918/Pop/KarmaPolice_zlgjt8.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/Radiohead%20-%20Karma%20Police.mp3?raw=true"
+    },
+    {
+        "id": 26,
+        "artist": "Avenged Sevenfold",
+        "title": "A little Peace of Heaven",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642707401/Rock/maxresdefault_jhkdrs.jpg",
+        "genre": "Rock",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/rock/Avenged%20Sevenfold%20-%20A%20Little%20Piece%20Of%20Heaven%20with%20lyrics.mp3?raw=true"
+    },
+    {
+        "id": 27,
+        "artist": "Guns N Roses",
+        "title": "Estranged",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642707112/Rock/R-2021825-1492679558-7944.jpeg_fbd7x6.jpg",
+        "genre": "Rock",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/rock/Estranged.mp3?raw=true"
+    },
+    {
+        "id": 28,
+        "artist": "Linkin Park",
+        "title": "One Step Closer",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642707487/Rock/Linkin_Park_-_One_Step_Closer_CD_cover_dwpv0d.jpg",
+        "genre": "Rock",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/rock/Linkin%20Park%20-%20One%20Step%20Closer%20%5BHQ%5D.mp3?raw=true"
+    },
+    {
+        "id": 29,
+        "artist": "Creed",
+        "title": "On My Sleeve",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642707204/Rock/ab67616d0000b2734520a525ad206ffd54d89841_fxbmd8.jpg",
+        "genre": "Rock",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/rock/On%20My%20Sleeve.mp3?raw=true"
+    },
+    {
+        "id": 30,
+        "artist": "Pas Band",
+        "title": "Jengah",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1642707045/Rock/maxresdefault_ztpxrc.jpg",
+        "genre": "Rock",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/rock/Pas%20Band%20-%20Jengah%20(%20HQ%20).mp3?raw=true"
+    },
+    {
+        "id": 31,
+        "artist": "Daft Punk",
+        "title": "Give Life Back to Music",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1643763163/Pop/61vD3yfA0-L._SS500__ubperx.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/031.Daft%20Punk%20-%20Give%20Life%20Back%20To%20Music.mp3?raw=true"
+    },
+    {
+        "id": 32,
+        "artist": "Daft Punk",
+        "title": "Lose Yourself To Dance",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1643763502/Pop/Daft_Punk_-__22Lose_Yourself_to_Dance_22__28Promotional_single_29_a45xht.png",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/032.Daft%20Punk%20-%20Lose%20Yourself%20To%20Dance.mp3?raw=true"
+    },
+    {
+        "id": 33,
+        "artist": "Daft Punk ft Pharrell Williams, Nile Rodgers",
+        "title": "Get Lucky",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1643763642/Pop/artworks-000047358060-wpkaki-t500x500_r0doac.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/034.Daft%20Punk%20ft%20Pharrell%20Williams%2C%20Nile%20Rodgers%20-%20Get%20Lucky.mp3?raw=true"
+    },
+    {
+        "id": 34,
+        "artist": "Fun ft Janelle Monáe",
+        "title": "We Are Young",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1643763826/Pop/d6d79a51ecc197244a4c46b975b4fd04_fw4zqz.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/035.Fun%20ft%20Janelle%20Mon%C3%A1e%20-%20We%20Are%20Young.mp3?raw=true"
+    },
+    {
+        "id": 35,
+        "artist": "Fun",
+        "title": "Sight Of The Sun",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1643763917/Pop/ab67616d0000b273cb4ce7677650b7ec8e36acc3_vohw0u.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/036.Fun%20-%20Sight%20Of%20The%20Sun.mp3?raw=true"
+    },
+    {
+        "id": 36,
+        "artist": "NOAH",
+        "title": "Separuh Aku",
+        "cover": "https://res.cloudinary.com/angelo-della-morte-company/image/upload/v1643764009/Pop/ab67616d0000b273d7aa188975b8fe3fbfb32428_rylq8m.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/037.NOAH%20-%20Separuh%20Aku.mp3?raw=true"
+    },
+    {
+        "id": 37,
+        "artist": "NOAH",
+        "title": "Yang Terdalam",
+        "cover": "https://i1.sndcdn.com/artworks-000241077487-6x8tez-t500x500.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/038.NOAH%20-%20Yang%20Terdalam.mp3?raw=true"
+    },
+    {
+        "id": 38,
+        "artist": "Peterpan",
+        "title": "Aku dan Bintang",
+        "cover": "https://cdn.law-justice.co/posts/1/2019/2019-10-23/c0fdeefd8e9b764e4e1ed4d7f36c9d4b_1.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/039.Peterpan%20-%20Aku%20Dan%20Bintang.mp3?raw=true"
+    },
+    {
+        "id": 39,
+        "artist": "Peterpan",
+        "title": "Ada Apa Denganmu",
+        "cover": "https://i.ytimg.com/vi/SpDrhvnSToY/maxresdefault.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/040.Peterpan%20-%20Ada%20Apa%20Denganmu.mp3?raw=true"
+    },
+    {
+        "id": 40,
+        "artist": "Peterpan",
+        "title": "Kupu-Kupu Malam",
+        "cover": "https://i.ytimg.com/vi/B33WJaqkNYo/maxresdefault.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/041.Peterpan%20-%20Kupu%20Kupu%20Malam.mp3?raw=true"
+    },
+    {
+        "id": 41,
+        "artist": "Jikustik",
+        "title": "Akhiri ini Dengan Indah",
+        "cover": "https://i.ytimg.com/vi/NXaG46CSFOg/maxresdefault.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/043.Jikustik%20-%20Akhiri%20Ini%20Dengan%20Indah.mp3?raw=true"
+    },
+    {
+        "id": 42,
+        "artist": "Jikustik",
+        "title": "Bunga Tolong Dengarkan",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273d5e4677dd0539ffdd115a064",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/044.Jikustik%20-%20Bunga%20Tolong%20Dengarkan.mp3?raw=true"
+    },
+    {
+        "id": 43,
+        "artist": "Beage",
+        "title": "Sendiri Lagi",
+        "cover": "https://i1.sndcdn.com/artworks-000141910131-7m9mhv-t500x500.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/045.Beage%20-%20Sendiri%20Lagi.mp3?raw=true"
+    },
+    {
+        "id": 44,
+        "artist": "Peterpan",
+        "title": "Kisah Cintaku",
+        "cover": "https://i.ytimg.com/vi/w09ukdgQKho/maxresdefault.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/049.Peterpan%20-%20Kisah%20Cintaku.mp3?raw=true"
+    },
+    {
+        "id": 45,
+        "artist": "Maroon 5 ft Wiz Khalifa",
+        "title": "Payphone",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/7/7f/Maroon_5_Payphone_cover.png",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/064.Maroon%205%20ft%20Wiz%20Khalifa%20-%20Payphone.mp3?raw=true"
+    },
+    {
+        "id": 46,
+        "artist": "Maroon 5 ft Cardi B",
+        "title": "Girls Like You",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/5/57/Girls_like_You_cover.png",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/065.Maroon%205%20ft%20Cardi%20B%20-%20Girls%20Like%20You.mp3?raw=true"
+    },
+    {
+        "id": 47,
+        "artist": "Maroon 5",
+        "title": "Daylight",
+        "cover": "https://www.billboard.com/wp-content/uploads/styles/review_410/public/maroon-daylight-419.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/066.Maroon%205%20-%20Daylight.mp3?raw=true"
+    },
+    {
+        "id": 48,
+        "artist": "Maroon 5",
+        "title": "One More Night",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/2/28/Maroon_5_One_More_Night_cover.png",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/067.Maroon%205%20-%20One%20More%20Night.mp3?raw=true"
+    },
+    {
+        "id": 49,
+        "artist": "Maroon 5",
+        "title": "Animals",
+        "cover": "https://i1.sndcdn.com/artworks-000121855509-x4mg9a-t500x500.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/068.Maroon%205%20-%20Animals.mp3?raw=true"
+    },
+    {
+        "id": 50,
+        "artist": "Maroon 5",
+        "title": "Sugar",
+        "cover": "https://i1.sndcdn.com/artworks-000107338750-5bxgf8-t500x500.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/069.Maroon%205%20-%20Sugar.mp3?raw=true"
+    },
+    {
+        "id": 51,
+        "artist": "Maroon 5",
+        "title": "This Love",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/b/bf/This_Love_cover.png",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/072.Maroon%205%20-%20This%20Love.mp3?raw=true"
+    },
+    {
+        "id": 52,
+        "artist": "Maroon 5",
+        "title": "Won't Go Home Without You",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Maroon_5_Won%27t_Go_Home_Without_You_Cover.JPG/220px-Maroon_5_Won%27t_Go_Home_Without_You_Cover.JPG",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/074.Maroon%205%20-%20Won't%20Go%20Home%20Without%20You.mp3?raw=true"
+    },
+    {
+        "id": 53,
+        "artist": "Guns N' Roses",
+        "title": "Patience",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/7/7a/GnrPatience.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/100.Guns%20N'%20Roses%20-%20Patience.mp3?raw=true"
+    },
+    {
+        "id": 54,
+        "artist": "Bondan Prakoso ft Fade2Black",
+        "title": "Ya Sudahlah",
+        "cover": "https://img.youtube.com/vi/_WyLVrtLhvk/0.jpg?resize=153%2C153",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/123.Bondan%20Prakoso%20ft%20Fade2Black%20-%20Ya%20Sudahlah.mp3?raw=true"
+    },
+    {
+        "id": 55,
+        "artist": "Bondan Prakoso ft Fade2Black",
+        "title": "Bunga",
+        "cover": "https://img.youtube.com/vi/TYDfdeUGSQc/0.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/124.Bondan%20Prakoso%20ft%20Fade2Black%20-%20Bunga.mp3?raw=true"
+    },
+    {
+        "id": 56,
+        "artist": "Bondan Prakoso ft Fade2Black",
+        "title": "Kita Selamanya",
+        "cover": "https://i.ytimg.com/vi/8KQ93aW7YY4/hqdefault.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/126.Bondan%20Prakoso%20ft%20Fade2Black%20-%20Kita%20Selamanya.mp3?raw=true"
+    },
+    {
+        "id": 57,
+        "artist": "Bondan Prakoso ft Fade2Black",
+        "title": "Tak Sempurna",
+        "cover": "https://img.youtube.com/vi/jJrP7x7YPFI/0.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/127.Bondan%20Prakoso%20ft%20Fade2Black%20-%20Tak%20Sempurna.mp3?raw=true"
+    },
+    {
+        "id": 58,
+        "artist": "Ed Sheeran",
+        "title": "Shape of You",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/129.Ed%20Sheeran%20-%20Shape%20Of%20You.mp3?raw=true"
+    },
+    {
+        "id": 59,
+        "artist": "Ed Sheeran",
+        "title": "Castle On The Hill",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/2/27/Castle_On_The_Hill_%28Official_Single_Cover%29_by_Ed_Sheeran.png",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/pop/130.Ed%20Sheeran%20-%20Castle%20On%20The%20Hill.mp3?raw=true"
+    },
+    {
+        "id": 60,
+        "artist": "NAIF",
+        "title": "Senang Bersamamu",
+        "cover": "https://i.ytimg.com/vi/e1bcY_T7xJw/hqdefault.jpg",
+        "genre": "Pop",
+        "link": "https://github.com/angelodellamorte404/Songs/blob/main/classic%20pop/051.NAIF%20-%20Senang%20Bersamamu.mp3?raw=true"
+    }
+]
